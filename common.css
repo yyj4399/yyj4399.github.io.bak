@@ -1,0 +1,71 @@
+.header{
+    width: 100%;
+    height: 60px;
+    z-index: 100;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 1px solid #e6e6e6;
+    text-align: center;
+}
+.header_logo{
+    float: left;
+    margin-left: 15%;
+    width: auto;
+    height: auto;
+}
+.header_btn{
+    float: left;
+    margin-left: 3%;
+    width: auto;
+    height: auto;
+}
+.header_btn li{
+    float: left;
+    width: auto;
+    height: auto;
+}
+.header_btn li a{
+    display: inline-block;
+    padding: 0 28px;
+    font-size: 15px;
+    line-height: 58px;//预留2px给下划线
+}
+.header_active{
+    border-bottom: 2px solid #0096ff;
+}
+.header_search{
+    float: left;
+    margin: 10px 2%;
+    width: 280px;
+    height: 40px;
+    border: 1px solid #ebebeb;
+    border-radius: 4px;
+    overflow: hidden;
+}
+.header_search input{
+    float: left;
+    width: 238px;
+    line-height: 38px;
+    padding-left: 10px;
+    padding-right: 20px;
+    border: none;
+}
+.header_search button{
+    float: left;
+    width: 40px;
+    height: 38px;
+    background: transparent;
+}
+.header_user{
+    float: left;
+    width: 150px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 14px;
+}
+.header_user a{
+    color: #428bca;
+}
+.header_user a+span{
+    margin: 0 10px;
+}
