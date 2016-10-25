@@ -1,12 +1,8 @@
 body{
     font-family: "Helvetica Neue", "Microsoft YaHei", "微软雅黑", tahoma, simhei, Arial, sans-serif;
-}
-html {
-    background: url(/img/static/crescent.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    height: 2000px;
+    text-align: center;
+    background-color: #eee;
 }
 a:visited{
     text-decoration:none;
