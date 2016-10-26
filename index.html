@@ -37,6 +37,17 @@
         <link rel="stylesheet" href="/css/common.css">
         <link rel="stylesheet" href="/css/index.css">
     </head>
+    <script>
+        window.onload=function(){
+            var this_url = window.location.host;
+            if(this_url == 'git_view.local.xyz'){
+                document.getElementById("cross_origin_proxy").src='http://git_back.local.xyz/';
+            } else {
+                document.getElementById("cross_origin_proxy").src='http://115.159.148.191:23001/';
+            }
+        }
+    </script>
+    <iframe name="cross_origin_proxy" id="cross_origin_proxy" src=""></iframe>
     <body>
         <div class="header">
             <div class="header_left"><a href="/"><img src="/img/static/MiklyWay.jpg" height="75px" width="75px"></a></div>
