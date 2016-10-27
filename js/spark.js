@@ -1,1 +1,1 @@
-#ajax跨域服务文件
+console.log($.get('https://www.cloudring.cc/github/index/index'));
