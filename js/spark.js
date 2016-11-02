@@ -6,5 +6,9 @@ window.onload=function(){
     } else {
         ajax_url='https://www.cloudring.cc/';
     }
-    console.log($.get(ajax_url+'github/index/index'));
+    $.get(ajax_url+'github/index/index', function(data){
+        var get = eval(data);
+        console.log(get);
+        $('.topic').html(get[0]['note']);
+    });
 }
