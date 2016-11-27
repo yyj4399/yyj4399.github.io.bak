@@ -1,0 +1,50 @@
+.middle_div {
+  position:absolute;
+  top:0;
+  right:0;
+  bottom:0;
+  left:0;
+  overflow: hidden;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  height: 300px;
+  width: 60%;
+  margin: auto;
+  background-color: #FFF;
+  border: solid 2px #fff;
+  box-shadow: 0 0 20px #999;
+  border-radius:25px;
+  -moz-border-radius:25px;
+}
+.enter {
+  position: relative;
+  top: 75px;
+  height: 150px;
+  width: 500px;
+  margin: auto;
+}
+.enter_left {
+  display: inline-block;
+  height: 150px;
+  width: 150px;
+}
+.enter_left img {
+  border-radius: 50%;
+}
+.enter_right {
+  position: relative;
+  left: 60px;
+  top: 20px;
+  display: inline-block;
+  margin: auto;
+}
+.enter_right h2 {
+  color: #afabab;
+}
+.a_list {
+  position: relative;
+  top: 20px;
+}
+.a_list a {
+  margin-right: 14px;
+}

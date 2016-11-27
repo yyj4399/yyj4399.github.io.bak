@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="zh-cn">
   <head>
-    <title>魔法时空研究所</title>
+    <title>坠入银河</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="description" content="坠入银河">
@@ -15,25 +15,32 @@
     <meta name="format-detection" content="email=no">
     <link rel="shortcut icon" type="image/ico" href="/favicon.ico">
     <!-- include -->
-    <link rel="stylesheet" href="/include/bootstrap/3.3.7/css/bootstrap-theme.min.css">
-    <link rel="stylesheet" href="/include/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script type="text/javascript" src="/include/jquery/3.1.1/js/jquery.min.js"></script>
-    <script type="text/javascript" src="/include/angular/1.5.x/js/angular.min.js"></script>
-    <script type="text/javascript" src="/include/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="/js/public/service_start.js"></script>
-    <script type="text/javascript" src="/js/public/service_connect.js"></script>
+    <link rel="stylesheet" href="/src/include/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="/src/include/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/src/css/public/common.css">
+    <script type="text/javascript" src="/src/include/jquery/3.1.1/js/jquery.min.js"></script>
+    <script type="text/javascript" src="/src/include/angular/1.5.x/js/angular.min.js"></script>
+    <script type="text/javascript" src="/src/include/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/src/js/public/service_start.js"></script>
+    <script type="text/javascript" src="/src/js/public/service_connect.js"></script>
     <!-- start -->
-    <script type="text/javascript" src="/js/index/index.js"></script>
-    <link rel="stylesheet" href="/css/common.css">
-    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="/src/css/index/index.css">
+    <script type="text/javascript" src="/src/js/index/index.js"></script>
   </head>
   <body ng-app="myApp" ng-controller="myCtrl" ng-init="init()">
-    <div class="header">
-      <div class="header_left"><a href="/"><img src="/img/static/MiklyWay.jpg" height="75px" width="75px"></a></div>
-    </div>
-    <div class="desktop">
-      <div ng-repeat="x in blog_list">
-        <div class="topic" ng-bind="x.id"></div>
+    <div class="middle_div">
+      <div class="enter">
+        <div class="enter_left">
+          <img src="/src/img/static/MiklyWay.jpg">
+        </div>
+        <div class="enter_right">
+          <h2 class="inline">坠入银河</h2>
+          <div class="a_list">
+            <a href="/module/blog/index.html">我的博客</a>
+            <a href="/">图书馆</a>
+            <a href="/">后花园</a>
+          </div>
+        </div>
       </div>
     </div>
   </body>
