@@ -7,11 +7,11 @@ body{background:#fff}
 .main{position:absolute;left:50%;top:50%;width:600px;height:300px;margin-left:-300px;margin-top:-200px;transition:all .5s;-moz-transition:all .5s;-webkit-transition:all .5s;-o-transition:all .5s;animation:movebff 1s;-webkit-animation:movebff 1s}
 .my-image{position:absolute;width:256px;height:256px;border-radius:50%;top:50%;margin-top:-128px;padding:3px;border:solid 2px #fff}
 .my-image img{border-radius:50%}
-.main .content{color:#000;position:absolute;top:30px;margin-left:290px;height:260px;width:340px}
+.main .content{color: rgb(93, 81, 81);position:absolute;top:30px;margin-left:290px;height:260px;width:340px}
 .name{font-size:2em}
 .name .lv{color:#333;font-size:.8em}
 .info{font-size:1.2em}
-a{color:#000}
+a{color: rgb(35, 208, 169)}
 
 @media screen and (max-width:800px){
 	body{overflow:hidden}
