@@ -16,8 +16,8 @@ a{color: rgb(35, 208, 169)}
 @media screen and (max-width:800px){
 	body{overflow:hidden}
 	.main{width:100%;height:600px;top:20%;left:0;margin-top:-80px;margin-left:0;transition:all .5s;-moz-transition:all .5s;-webkit-transition:all .5s;-o-transition:all .5s;animation:moveaff 1s;-webkit-animation:moveaff 1s}
-	.my-image{width:256px;height:256px;top:0;left:50%;margin-left:-128px;margin-top:0;border-radius:50%;padding:3px;border:solid 2px #000}
-	.main .content{text-align:center;color:#000;position:absolute;top:300px;left:0;margin-left:0;width:100%}
+	.my-image{width:256px;height:256px;top:0;left:50%;margin-left:-128px;margin-top:0;border-radius:50%;padding:3px;border:solid 2px #fff}
+	.main .content{text-align:center;color: rgb(93, 81, 81);position:absolute;top:300px;left:0;margin-left:0;width:100%}
 }
 
 @keyframes movebff{
